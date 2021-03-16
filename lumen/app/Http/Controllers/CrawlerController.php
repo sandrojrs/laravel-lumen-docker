@@ -20,7 +20,7 @@ class CrawlerController extends Controller
         $client = new Browser($loop);
 
         if ($page == 1){
-            $url= 'https://www.magazineluiza.com.br/';
+            $url= 'https://www.submarino.com.br/busca/tv';
         }else{
             $url= 'https://www.submarino.com.br/busca/tv?limite=24&offset=24';
         }
